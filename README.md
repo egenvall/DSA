@@ -1,23 +1,24 @@
 # DSA
 DSA Signing / Verification
-Compile all java files then
 
-java Main < genkey
+javac *.java
 
-
-java Main < invalid1
+java Start < genkey
 
 
-java Main < invalid2
+java Start < invalid1
 
 
-java Main < invalid3
+java Start < invalid2
 
 
-java Main < invalid4
+java Start < invalid3
 
 
-java Main < sign
+java Start < invalid4
 
 
-java Main < verify
+java Start < sign
+
+
+java Start < verify
